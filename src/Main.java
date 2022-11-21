@@ -90,6 +90,11 @@ ver                            }
                         }
                         System.out.println("The reverse of the given number is: " + rev);
                         break;
+                case 5:
+
+                    System.out.println("Enter exit");
+                    break;
+
             }
 
 
