@@ -26,6 +26,23 @@ public class Main {
                     }
 
                     break;
+                case 2:
+
+                    System.out.println("Enter First Number");
+                    float a = xy.nextInt();
+                    System.out.println("Enter Second Number");
+                    float b = xy.nextInt();
+                    System.out.println("Enter Second Number");
+                    float c = xy.nextInt();
+                    if (a < b && a < b) {
+                        System.out.println("Smallest number is :" + a);
+                    } else if (b < c) {
+                        System.out.println("Smallest number is :" + b);
+                    } else {
+                        System.out.println("Smallest number is :" + c);
+                    }
+
+                    break;
             }
         }while (option != 6);
 
