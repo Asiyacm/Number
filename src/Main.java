@@ -43,6 +43,29 @@ public class Main {
                     }
 
                     break;
+                case 3:
+
+                    System.out.println("Enter the Number");
+                    float n = xy.nextInt();
+                    float ab = n/2;
+                    if(ab==0||ab==1){
+                        System.out.println(n+" is not prime number");
+                    }else{
+                        for(int i=2;i<=ab;i++){
+                            int flag;
+                            if(n%i==0){
+                                System.out.println(n+" is not prime number");
+                               flag=1;
+                                break;
+                            }
+
+                        else{
+                            System.out.println(n+" is prime number");
+                            }
+                        }
+                    }
+
+                    break;
             }
         }while (option != 6);
 
