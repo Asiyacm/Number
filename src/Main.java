@@ -94,6 +94,10 @@ ver                            }
 
                     System.out.println("Enter exit");
                     break;
+                default:
+
+                    System.out.println("Invalid choice");
+                    break;
 
             }
 
