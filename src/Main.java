@@ -66,7 +66,18 @@ public class Main {
                     }
 
                     break;
-            }
+                case 4:
+
+                    System.out.println("Enter the Number");
+                    float p = xy.nextInt();
+                    if(p % 2 == 0){
+                        System.out.println("Even number");
+                    }else{
+                        System.out.println("Not Even number");
+                                break;
+                            }
+
+                        }
         }while (option != 6);
 
 
