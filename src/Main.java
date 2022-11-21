@@ -57,7 +57,7 @@ public class Main {
                                 System.out.println(n+" is not prime number");
                                flag=1;
                                 break;
-                            }
+ver                            }
 
                         else{
                             System.out.println(n+" is prime number");
@@ -72,12 +72,28 @@ public class Main {
                     float p = xy.nextInt();
                     if(p % 2 == 0){
                         System.out.println("Even number");
-                    }else{
+                    }else {
                         System.out.println("Not Even number");
+                    }
                                 break;
-                            }
+                    case 5:
 
+                        System.out.println("Enter the Number");
+                        int r = xy.nextInt();
+                        int rem;
+                        int rev=0;
+                        while(r > 0)
+                        {
+                            rem = r % 10;
+                            rev = (rev * 10) + rem;
+                            r = r/10;
                         }
+                        System.out.println("The reverse of the given number is: " + rev);
+                        break;
+            }
+
+
+
         }while (option != 6);
 
 
